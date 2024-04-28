@@ -1,0 +1,5 @@
+# _config.yml
+
+title: Agentic
+description: Cross-platform, provider agnostic, universally connected AI assistant app.
+theme: jekyll-theme-minimal
