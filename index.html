@@ -1,112 +1,28 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agentic - Personal AI Assistant</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Agentic</a>
-        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <ul class="sidenav" id="mobile-menu">
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </header>
+    <header>
+        <h1>Welcome to Agentic</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <div class="container">
-      <section id="hero" class="valign-wrapper">
-        <div class="row">
-          <div class="col s12 m6">
-            <h1>The Ultimate Personal AI Assistant</h1>
-            <p>Introducing Agentic, a self-hosted, provider-agnostic, cross-platform, connected, personal intelligent agent.</p>
-            <a href="#features" class="btn waves-effect waves-light">Learn More</a>
-          </div>
-          <div class="col s12 m6">
-            <img src="hero-image.jpg" alt="Hero Image" class="responsive-img">
-          </div>
-        </div>
-      </section>
+    <main>
+        {{ content }}
+    </main>
 
-      <section id="features">
-        <h2>Features</h2>
-        <!-- Add feature descriptions here -->
-      </section>
-
-      <section id="blog">
-        <h2>Blog</h2>
-        <div class="row">
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="blog-image-1.jpg" alt="Blog Image 1">
-              </div>
-              <div class="card-content">
-                <span class="card-title">Blog Entry 1</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-              <div class="card-action">
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <!-- Add more blog entry cards here -->
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <!-- Add contact form or information here -->
-      </section>
-    </div>
-  </main>
-
-  <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Agentic</h5>
-          <p class="grey-text text-lighten-4">The Ultimate Personal AI Assistant.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#hero">Home</a></li>
-            <li><a class="grey-text text-lighten-3" href="#features">Features</a></li>
-            <li><a class="grey-text text-lighten-3" href="#blog">Blog</a></li>
-            <li><a class="grey-text text-lighten-3" href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        &copy; Agentic
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="app.js"></script>
+    <footer>
+        <p>&copy; 2024 Agentic. All rights reserved.</p>
+    </footer>
 </body>
 </html>
