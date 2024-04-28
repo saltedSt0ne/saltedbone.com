@@ -1,0 +1,14 @@
+// blogPosts.json
+
+{
+    "posts": [
+        {
+            "title": "Introducing Agentic: Your Personal AI Assistant",
+            "content": "Learn about the powerful features and capabilities of Agentic, the ultimate personal AI assistant."
+        },
+        {
+            "title": "Unlocking the Potential of Agentic: Unexpected Use Cases",
+            "content": "Discover unique and unexpected ways to leverage Agentic to enhance your productivity and creativity."
+        }
+    ]
+}
